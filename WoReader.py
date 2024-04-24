@@ -7,7 +7,7 @@ nlp = spacy.load("en_core_web_sm")
 
 
 # Reads the contents of the file
-with open("C:\\Users\\IMist\\OneDrive\\Desktop\\awh\\Words\\random_paragraphs.txt", "r") as file:
+with open("random_paragraphs.txt", "r") as file:
     text = file.read()
 
 nlp.max_length = len(text) + 100000
